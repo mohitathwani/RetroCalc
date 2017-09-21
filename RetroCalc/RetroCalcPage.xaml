@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    xmlns:local="clr-namespace:RetroCalc" 
+    x:Class="RetroCalc.RetroCalcPage">
+
+    <RelativeLayout>
+    <Image 
+        x:Name = "mainBanckgroundImage" 
+        Aspect = "AspectFill" 
+        RelativeLayout.WidthConstraint = "{ConstraintExpression 
+            Type = RelativeToParent, 
+            Property = Width, 
+            Factor = 1}"
+        RelativeLayout.HeightConstraint = "{ConstraintExpression 
+            Type = RelativeToParent, 
+            Property = Height, 
+            Factor = 1}"
+        />
+
+        <Image 
+            x:Name = "backPanelImage"
+            Aspect = "AspectFill"
+            RelativeLayout.WidthConstraint = "{ConstraintExpression
+                Type = RelativeToParent,
+                Property = Width,
+                Factor = 1}"
+
+            RelativeLayout.HeightConstraint = "{ConstraintExpression
+                Type = RelativeToParent,
+                Property = Height,
+                Factor = 0.1}"
+
+            RelativeLayout.YConstraint = "{ConstraintExpression
+                Type = RelativeToParent,
+                Property = Height,
+                Factor = 0.9}"/>
+    </RelativeLayout>
+</ContentPage>
