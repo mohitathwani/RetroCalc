@@ -123,6 +123,21 @@
     <BundleResource Include="Resources\Minecraft.ttf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </BundleResource>
+    <BundleResource Include="Resources\7.png" />
+    <BundleResource Include="Resources\0.png" />
+    <BundleResource Include="Resources\1.png" />
+    <BundleResource Include="Resources\2.png" />
+    <BundleResource Include="Resources\3.png" />
+    <BundleResource Include="Resources\4.png" />
+    <BundleResource Include="Resources\5.png" />
+    <BundleResource Include="Resources\6.png" />
+    <BundleResource Include="Resources\8.png" />
+    <BundleResource Include="Resources\9.png" />
+    <BundleResource Include="Resources\add.png" />
+    <BundleResource Include="Resources\divide.png" />
+    <BundleResource Include="Resources\equal.png" />
+    <BundleResource Include="Resources\multiply.png" />
+    <BundleResource Include="Resources\subtract.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Forms.2.3.4.270\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.2.3.4.270\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets')" />

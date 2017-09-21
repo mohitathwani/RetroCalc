@@ -12,6 +12,7 @@ namespace RetroCalc
             backPanelImage.Source = ImageSource.FromResource("RetroCalc.Images.ground.png");
             counterImage.Source = ImageSource.FromResource("RetroCalc.Images.counter.png");
             backpanelImage.Source = ImageSource.FromResource("RetroCalc.Images.backpanel.png");
+            //seven.Image = new FileImageSource { File = "Images/7.png" };
         }
     }
 }

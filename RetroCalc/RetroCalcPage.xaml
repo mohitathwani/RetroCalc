@@ -93,52 +93,33 @@
             AbsoluteLayout.LayoutBounds = "0.5, 0, 0.85, 1"
                 AbsoluteLayout.LayoutFlags = "All"/>
 
-            <Grid BackgroundColor = "Fuchsia"
+            <Grid
                     AbsoluteLayout.LayoutFlags = "All"
                     AbsoluteLayout.LayoutBounds = "0.5, 0.47, 0.78, 0.9">
 
 
-                
+                <Button x:Name = "sevenButton"  Image = "7.png" Grid.Row="0" Grid.Column="0"/>
+                <Button x:Name = "eightButton"  Image = "8.png" Grid.Row="0" Grid.Column="1"/>
+                <Button x:Name = "nineButton"  Image = "9.png" Grid.Row="0" Grid.Column="2"/>
 
+                <Button x:Name = "fourButton"  Image = "4.png" Grid.Row="1" Grid.Column="0"/>
+                <Button x:Name = "fiveButton"  Image = "5.png" Grid.Row="1" Grid.Column="1"/>
+                <Button x:Name = "sixButton"  Image = "6.png" Grid.Row="1" Grid.Column="2"/>
+
+                <Button x:Name = "oneButton"  Image = "1.png" Grid.Row="2" Grid.Column="0"/>
+                <Button x:Name = "twoButton"  Image = "2.png" Grid.Row="2" Grid.Column="1"/>
+                <Button x:Name = "threeButton"  Image = "3.png" Grid.Row="2" Grid.Column="2"/>
+
+                <Button x:Name = "zeroButton"  Image = "0.png" Grid.Row="3" Grid.Column="0"/>
+                <Button x:Name = "divideButton"  Image = "divide.png" Grid.Row="3" Grid.Column="1"/>
+                <Button x:Name = "multiplyButton"  Image = "multiply.png" Grid.Row="3" Grid.Column="2"/>
+
+                <Button x:Name = "minusButton"  Image = "subtract.png" Grid.Row="4" Grid.Column="0"/>
+                <Button x:Name = "plusButton"  Image = "add.png" Grid.Row="4" Grid.Column="1"/>
+                <Button x:Name = "equalsButton"  Image = "equal.png" Grid.Row="4" Grid.Column="2"/>
             </Grid>
             
             </AbsoluteLayout>
-
-        
-<!--
-        <Grid BackgroundColor = "Red"
-                RelativeLayout.XConstraint = "{ConstraintExpression
-            Type = RelativeToView,
-            ElementName = absoluteLayout,
-            Property = X,
-            Factor = 1}"
-
-            RelativeLayout.YConstraint = "{ConstraintExpression
-                Type = RelativeToView,
-                ElementName = absoluteLayout,
-                Property = Y,
-                Factor = 2}"
-
-            RelativeLayout.WidthConstraint = "{ConstraintExpression
-                Type = RelativeToView,
-                ElementName = absoluteLayout,
-                Property = Width,
-                Factor = 0.75}"
-
-            RelativeLayout.HeightConstraint = "{ConstraintExpression
-                Type = RelativeToParent,
-                Property = Height,
-                Factor = 0.63}">
-
-
-
-
-        </Grid>-->
-
-
-
-
-
         
     </RelativeLayout>
 </ContentPage>
