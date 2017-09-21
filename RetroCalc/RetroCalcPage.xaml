@@ -37,7 +37,7 @@
                 Property = Height,
                 Factor = 0.9}"/>
 
-        <AbsoluteLayout
+        <AbsoluteLayout x:Name = "absoluteLayout" 
             RelativeLayout.WidthConstraint = "{ConstraintExpression
                 Type = RelativeToParent,
                 Property = Width,
@@ -55,23 +55,76 @@
 
             
 
-            <Image 
+            <Image
             x:Name = "counterImage"
-            Aspect = "AspectFill" 
-                AbsoluteLayout.LayoutBounds = "0.5, 0, 0.75, 1"
+            Aspect = "Fill" 
+                AbsoluteLayout.LayoutBounds = "0.5, 0, 0.85, 1"
                 AbsoluteLayout.LayoutFlags = "All"/>
 
             <Label Text = "1234" 
-                AbsoluteLayout.LayoutBounds = "0.5, 0, 0.7, 1"
+                AbsoluteLayout.LayoutBounds = "0.5, 0, 0.75, 1"
                 AbsoluteLayout.LayoutFlags = "All"
                 HorizontalTextAlignment = "End"
                 VerticalTextAlignment = "End"
                 x:Name = "counterLabel"
-                FontFamily = "Minecraft"
-                FontSize = "50"/>
-
-
+                FontSize = "50" 
+                FontFamily = "Minecraft"/>
         </AbsoluteLayout>
+
+        <AbsoluteLayout x:Name = "absoluteLayout2" 
+            RelativeLayout.WidthConstraint = "{ConstraintExpression
+                Type = RelativeToParent,
+                Property = Width,
+                Factor = 1}"
+            
+            RelativeLayout.YConstraint = "{ConstraintExpression
+                Type = RelativeToParent,
+                Property = Height,
+                Factor = 0.25}"
+
+            RelativeLayout.HeightConstraint = "{ConstraintExpression
+                Type = RelativeToParent,
+                Property = Height,
+                Factor = 0.6}">
+
+
+            <Image x:Name = "backpanelImage"
+            Aspect = "Fill"
+            AbsoluteLayout.LayoutBounds = "0.5, 0, 0.85, 1"
+                AbsoluteLayout.LayoutFlags = "All"/>
+            
+            </AbsoluteLayout>
+
+        
+<!--
+        <Grid BackgroundColor = "Red"
+                RelativeLayout.XConstraint = "{ConstraintExpression
+            Type = RelativeToView,
+            ElementName = absoluteLayout,
+            Property = X,
+            Factor = 1}"
+
+            RelativeLayout.YConstraint = "{ConstraintExpression
+                Type = RelativeToView,
+                ElementName = absoluteLayout,
+                Property = Y,
+                Factor = 2}"
+
+            RelativeLayout.WidthConstraint = "{ConstraintExpression
+                Type = RelativeToView,
+                ElementName = absoluteLayout,
+                Property = Width,
+                Factor = 0.75}"
+
+            RelativeLayout.HeightConstraint = "{ConstraintExpression
+                Type = RelativeToParent,
+                Property = Height,
+                Factor = 0.63}">
+
+
+
+
+        </Grid>-->
 
 
 

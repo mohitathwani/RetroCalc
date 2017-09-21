@@ -33,6 +33,7 @@
     <EmbeddedResource Include="Images\space-bg.png" />
     <EmbeddedResource Include="Images\ground.png" />
     <EmbeddedResource Include="Images\counter.png" />
+    <EmbeddedResource Include="Images\backpanel.png" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
