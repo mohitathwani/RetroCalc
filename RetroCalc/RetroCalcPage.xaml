@@ -36,5 +36,45 @@
                 Type = RelativeToParent,
                 Property = Height,
                 Factor = 0.9}"/>
+
+        <AbsoluteLayout
+            RelativeLayout.WidthConstraint = "{ConstraintExpression
+                Type = RelativeToParent,
+                Property = Width,
+                Factor = 1}"
+            
+            RelativeLayout.YConstraint = "{ConstraintExpression
+                Type = RelativeToParent,
+                Property = Height,
+                Factor = 0.12}"
+
+            RelativeLayout.HeightConstraint = "{ConstraintExpression
+                Type = RelativeToParent,
+                Property = Height,
+                Factor = 0.1}">
+
+            
+
+            <Image 
+            x:Name = "counterImage"
+            Aspect = "AspectFill" 
+                AbsoluteLayout.LayoutBounds = "0.5, 0, 0.75, 1"
+                AbsoluteLayout.LayoutFlags = "All"/>
+
+            <Label Text = "1234" 
+                AbsoluteLayout.LayoutBounds = "0.5, 0, 0.7, 1"
+                AbsoluteLayout.LayoutFlags = "All"
+                HorizontalTextAlignment = "End"
+                VerticalTextAlignment = "Center"
+                FontSize = "45"/>
+
+
+        </AbsoluteLayout>
+
+
+
+
+
+        
     </RelativeLayout>
 </ContentPage>

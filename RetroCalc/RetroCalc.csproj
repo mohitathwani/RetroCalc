@@ -32,6 +32,7 @@
     <EmbeddedResource Include="RetroCalcPage.xaml" />
     <EmbeddedResource Include="Images\space-bg.png" />
     <EmbeddedResource Include="Images\ground.png" />
+    <EmbeddedResource Include="Images\counter.png" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
