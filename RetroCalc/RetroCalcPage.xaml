@@ -65,9 +65,10 @@
                 AbsoluteLayout.LayoutBounds = "0.5, 0, 0.7, 1"
                 AbsoluteLayout.LayoutFlags = "All"
                 HorizontalTextAlignment = "End"
-                VerticalTextAlignment = "Center"
-                FontSize = "45"
-                Font = "Minecraft"/>
+                VerticalTextAlignment = "End"
+                x:Name = "counterLabel"
+                FontFamily = "Minecraft"
+                FontSize = "50"/>
 
 
         </AbsoluteLayout>
