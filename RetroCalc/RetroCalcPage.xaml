@@ -92,6 +92,15 @@
             Aspect = "Fill"
             AbsoluteLayout.LayoutBounds = "0.5, 0, 0.85, 1"
                 AbsoluteLayout.LayoutFlags = "All"/>
+
+            <Grid BackgroundColor = "Fuchsia"
+                    AbsoluteLayout.LayoutFlags = "All"
+                    AbsoluteLayout.LayoutBounds = "0.5, 0.47, 0.78, 0.9">
+
+
+                
+
+            </Grid>
             
             </AbsoluteLayout>
 
